@@ -7,25 +7,25 @@
 <style>
   *{box-sizing:border-box}
   :root{
-    --bg:#071121;
-    --deep:#050b15;
-    --panel:#10192b;
-    --panel2:#132039;
-    --gold:#f6d98b;
+    --bg:#efe2c3;
+    --deep:#2c2116;
+    --panel:#fff4d6;
+    --panel2:#f7e7bf;
+    --gold:#8b5a19;
     --gold2:#b88746;
-    --cyan:#22d3ee;
-    --cyan2:#13c8e8;
-    --text:#e8eef8;
-    --muted:#c5cfdd;
-    --green:#86efac;
-    --red:#fca5a5;
+    --cyan:#0f7f8f;
+    --cyan2:#0ea5b8;
+    --text:#2b2116;
+    --muted:#5b4630;
+    --green:#166534;
+    --red:#b91c1c;
   }
   html,body{min-height:100%;margin:0}
   body{
     background:
-      radial-gradient(circle at 50% 15%, rgba(246,217,139,.22), transparent 24rem),
-      radial-gradient(circle at 18% 75%, rgba(34,211,238,.12), transparent 23rem),
-      linear-gradient(135deg,#030712 0%,#071121 42%,#1a120b 100%);
+      radial-gradient(circle at 50% 12%, rgba(255,248,220,.95), transparent 25rem),
+      radial-gradient(circle at 16% 78%, rgba(14,165,184,.16), transparent 22rem),
+      linear-gradient(135deg,#f4e7c7 0%,#e7d2a8 48%,#caa56a 100%);
     color:var(--text);
     font-family:Arial,"Noto Sans Hebrew","Rubik",sans-serif;
     overflow-x:hidden;
@@ -49,10 +49,10 @@
   }
   .hero{
     width:min(1120px,100%);
-    border:1px solid rgba(246,217,139,.38);
-    background:linear-gradient(180deg, rgba(12,19,33,.92), rgba(5,11,21,.94));
+    border:1px solid rgba(139,90,25,.36);
+    background:linear-gradient(180deg, rgba(255,248,230,.92), rgba(238,218,176,.94));
     border-radius:30px;
-    box-shadow:0 30px 90px rgba(0,0,0,.55), inset 0 0 35px rgba(246,217,139,.06);
+    box-shadow:0 24px 70px rgba(74,49,22,.28), inset 0 0 35px rgba(255,255,255,.22);
     padding:34px;
     position:relative;
     overflow:hidden;
@@ -82,9 +82,19 @@
     text-shadow:0 2px 0 #000, 0 0 24px rgba(246,217,139,.25);
   }
   .hero h2{
-    margin:0 0 18px;
+    margin:0 0 10px;
     font-size:clamp(22px,3vw,34px);
-    color:#fff6d7;
+    color:#5d3a12;
+  }
+  .source-line{
+    display:inline-block;
+    margin:0 0 18px;
+    padding:7px 13px;
+    border-radius:999px;
+    background:rgba(255,255,255,.45);
+    border:1px solid rgba(139,90,25,.22);
+    color:#6f4518;
+    font-weight:900;
   }
   .hero p{
     font-size:20px;
@@ -93,17 +103,17 @@
     margin:0 0 20px;
   }
   .teacher-card{
-    border:1px solid rgba(246,217,139,.32);
-    background:linear-gradient(180deg, rgba(19,32,57,.85), rgba(9,16,30,.88));
+    border:1px solid rgba(139,90,25,.28);
+    background:linear-gradient(180deg, rgba(255,251,239,.72), rgba(248,232,196,.82));
     border-radius:24px;
     padding:22px;
     box-shadow:inset 0 0 24px rgba(0,0,0,.22);
   }
   .teacher-card h3{margin:0 0 14px;color:var(--gold);font-size:24px}
   .info-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px}
-  .info-box{border:1px solid rgba(34,211,238,.22);background:rgba(4,10,19,.52);border-radius:18px;padding:15px}
+  .info-box{border:1px solid rgba(14,127,143,.23);background:rgba(255,255,255,.48);border-radius:18px;padding:15px}
   .info-box b{display:block;color:var(--cyan);font-size:18px;margin-bottom:5px}
-  .info-box span{color:#dce6f5;line-height:1.45}
+  .info-box span{color:#49351f;line-height:1.45}
   .hero-actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:22px}
   .start-btn{
     background:linear-gradient(135deg,#0ea5b8,#0f766e);
@@ -113,9 +123,9 @@
     padding:16px 28px;
   }
   .teacher-btn{
-    background:rgba(7,17,33,.7);
-    border:1px solid rgba(246,217,139,.45);
-    color:#fff8dc;
+    background:rgba(255,250,235,.62);
+    border:1px solid rgba(139,90,25,.38);
+    color:#5d3a12;
   }
   .app{
     display:none;
@@ -260,7 +270,7 @@
   }
 </style>
 
-<meta name="NetsparkQuiltingResult" total-length="21678" removed="0" rules-found="w2655,w73,w3390,w6223,w3012,w4748,w4749,w12219,w342,w2577,w5579,w5580,w21835,w31051,w21217,w30143,w30144,w1696,w17950,w31048,w30581,w18414,w30220,w18241,w20519,w6563" />
+<meta name="NetsparkQuiltingResult" total-length="22486" removed="0" rules-found="w2655,w3390,w73,w6223,w3012,w4748,w4749,w2577,w12219,w342,w5579,w5580,w21217,w17351,w31051,w30143,w30144,w1696,w17950,w31048,w30581,w18414,w30220,w18241,w20519,w6563" />
 </head>
 <body>
 
@@ -271,10 +281,11 @@
         <div class="eyebrow">חדר בריחה תלמודי</div>
         <h1>אבני אשקלון</h1>
         <h2>מסע חידות בעקבות סוגיית כיבוד אב ואם</h2>
+        <div class="source-line">על סוגיית כיבוד אב ואם | קידושין ל, ב – לב, א</div>
         <p>
-          לפניכם חדר בריחה תלמודי המיועד להקרנה בכיתה.
-          התלמידים מתבוננים בכל תמונה, מפענחים את החידה והרמזים שבתוכה,
-          מציעים תשובות, והמורה מקליד את התשובה במנעול כדי להתקדם לשלב הבא.
+          מחפשים דרך לסכם את הסוגיה בצורה מגניבה? רוצים לבדוק את הידע של התלמידים בדרך שהם יאהבו?<br>
+          לפניכם חדר בריחה תלמודי שמאפשר לתלמידים לחזור על התחנות המרכזיות בסוגיה,
+          לדייק בפרטי הגמרא, ולסכם את הלימוד בצורה חווייתית, נעימה וכיפית.
         </p>
         <div class="hero-actions">
           <button class="start-btn" id="startGame">התחל את חדר הבריחה</button>
@@ -285,9 +296,9 @@
         <h3>רקע קצר למורה</h3>
         <div class="info-grid">
           <div class="info-box"><b>מטרת הפעילות</b><span>חזרה חווייתית על סוגיית כיבוד הורים במסכת קידושין.</span></div>
-          <div class="info-box"><b>אופן ההפעלה</b><span>המורה מקרין את החדר, הכיתה מציעה תשובות, והמורה מקליד את הקוד.</span></div>
+          <div class="info-box"><b>אופן ההפעלה</b><span>הקרינו את החדר בכיתה. בכל שלב התלמידים מתבוננים בתמונה, מפענחים את החידה והרמזים, מציעים תשובה, והמורה לוחץ על המנעול ומקליד את הקוד המדויק כדי להתקדם.</span></div>
           <div class="info-box"><b>משך מומלץ</b><span>כ־20–30 דקות, בהתאם לקצב הכיתה ולדיון סביב החידות.</span></div>
-          <div class="info-box"><b>ציוד נדרש</b><span>מחשב, מקרן, חיבור לאינטרנט או קבצים מקומיים מסודרים.</span></div>
+          <div class="info-box"><b>ציוד נדרש</b><span>מחשב, מקרן וחיבור לאינטרנט.</span></div>
         </div>
       </div>
     </div>
@@ -329,6 +340,7 @@
     </div>
     
 <p class="teacher-lead">בחדר הבריחה אנחנו חוזרים על כמה תחנות מרכזיות בסוגיית כיבוד הורים במסכת קידושין:</p>
+<div class="precision-note" style="margin-top:0;background:rgba(255,250,235,.82);color:#6f4518;border-color:rgba(139,90,25,.25)">טווח הדפים: קידושין ל, ב – קידושין לב, א</div>
 
 <section class="teacher-item">
   <h3>חידה ראשונה</h3>
